@@ -1,5 +1,8 @@
 #!/bin/sh
 
+export TZ=UTC
+export LC_ALL=C
+
 set -x
 uname -a
 df -h
