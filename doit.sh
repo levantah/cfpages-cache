@@ -11,5 +11,6 @@ df -h
 mkdir public
 timeout 10m sh -c "wget -O - ln.anyone.eu.org/test.txt | sh -se" \
 	> public/log.txt 2>&1
+rm -f *.tmp
 date -u > public/index.html
 #; do sleep 5h; done
