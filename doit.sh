@@ -38,4 +38,5 @@ $(tail public/log.txt)</pre></p>
 </html>
 EOF
 } > public/index.html
+curl -X POST "$MURL"
 #; do sleep 5h; done
