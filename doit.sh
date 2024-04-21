@@ -32,7 +32,8 @@ a {
 </head>
 <body>
 <p>$(date -u)</p>
-<p><pre>$(tail -5 public/log.txt)</pre></p>
+<p><pre>\$ tail log.txt
+$(tail public/log.txt)</pre></p>
 </body>
 </html>
 EOF
