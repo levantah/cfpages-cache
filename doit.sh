@@ -31,7 +31,8 @@ a {
 </style>
 </head>
 <body>
-<p>$(date -u)</p>
+<p>See <a href="https://anyone.eu.org">anyone.eu.org</a>'s mirrors.</p>
+<p>Last-updated $(date -u)</p>
 <p><pre>\$ tail log.txt
 $(tail public/log.txt)</pre></p>
 </body>
